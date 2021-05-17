@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+* {
+    margin: 0; padding: 0;
+    font: "Lucida Fax" ,Arial;
+}
+a { text-decoration: none !important; }
+img { border: 0; }
+ul { list-style: none; }
+
+#main_content {
+    background: #dcc1fb;
+    height: 1500px;
+}
+
+/*스크롤바*/
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #c497f8;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #e7daf5;
+}
+
+
+/*container c1*/
+
+.c1{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+    left: 5%;
+}
+.box1{
+    position: absolute;
+    background-color: white;
+    width: 700px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:50px;
+}
+
+/*container c2*/
+.c2{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+    left: 5%;
+}
+.box3{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 340px;
+    margin-left: 0px;
+}
+
+.box2{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 340px; 
+    margin-left: 420px;
+}
+
+
+/*container c3*/
+.c3{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+    left: 5%;
+}
+.box4{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 630px;
+    margin-left: 0px;
+}
+
+.box5{
+    position: absolute;
+    float: right;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 630px;
+    margin-left: 300px;   
+}
+
+/*container c4*/
+.c4{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+    left: 5%;
+}
+.box6{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 920px;
+    margin-left: 0px;
+}
+.box7{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 920px;
+    margin-left:420px;
+}
+
+
+
+
+
+
+/* 미디어 쿼리 */
+
+@media screen and (max-width: 767px) {
+    #main_header .gnb, .lnb {
+        width: 90vw;
+    }
+
+    #main_header ul { 
+        display: none;
+    }
+
+    #main_header .setting {
+        display: none;
+    }
+
+    #main_header .trigger {
+        display: block;
+    }
+#main_content{
+    height: 900px;
+}
+ /*container c1*/
+
+.c1{
+    position:relative;
+    width:400px;
+    margin: 0 auto;
+}
+.box1{
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.best {
+    margin-top: -95px;
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*container c2*/
+.c2{
+    position:relative;
+    width:400px;
+    margin: 0 auto;
+}
+.box2{
+    position: absolute;
+    float: right;
+    background-color: white;
+    width: 155px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:  230px;
+    margin-left: 205px;
+}
+
+.box3{
+    position: absolute;
+    background-color: white;
+    width: 190px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 230px;
+}
+
+
+/*container c3*/
+.c3{
+    position:relative;
+    width:400px;
+    margin: 0 auto;
+}
+.box4{
+    position: absolute;
+    background-color: white;
+    width: 155px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 410px;
+}
+
+.box5{
+    position: absolute;
+    background-color: white;
+    width: 195px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:  410px;
+    margin-left:170px;
+}
+
+/*container c4*/
+.c4{
+    position:relative;
+    width:400px;
+    margin: 0 auto;
+}
+.box6{
+    position: absolute;
+    background-color: white;
+    width: 195px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 590px;
+}
+.box7{
+    position: absolute;
+    background-color: white;
+    width: 155px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 590px;
+    margin-left:210px;
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #main_header .gnb, .lnb {
+        width: 90vw;
+    }
+
+    #main_header ul { 
+        display: none;
+    }
+
+    #main_header .setting {
+        display: none;
+    }
+
+    #main_header .trigger {
+        display: block;
+    }
+
+    /*container c1*/
+
+.c1{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+}
+.box1{
+    position: absolute;
+    background-color: white;
+    width: 700px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:50px;
+}
+
+/*container c2*/
+.c2{
+    position:relative;
+    width:8s00px;
+    margin: 0 auto;
+}
+.box3{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 340px;
+    margin-left: 0px;
+}
+
+.box2{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 340px; 
+    margin-left: 420px;
+}
+
+
+/*container c3*/
+.c3{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+}
+.box4{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 630px;
+    margin-left: 0px;
+}
+
+.box5{
+    position: absolute;
+    float: right;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 630px;
+    margin-left: 300px;   
+}
+
+/*container c4*/
+.c4{
+    position:relative;
+    width:800px;
+    margin: 0 auto;
+}
+.box6{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 920px;
+    margin-left: 0px;
+}
+.box7{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 920px;
+    margin-left:420px;
+}
+
+
+ 
+}
+@media screen and (min-width: 1024px) {
+
+}

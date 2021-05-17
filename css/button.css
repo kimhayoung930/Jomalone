@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+img{
+    margin-left: 5px;
+}
+.button a:hover{
+    color:#6c6262;
+}
+
+.button{
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #dcc1fb;
+    width: 250px;
+    height: 50px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.buttons{
+    background-color:#dcc1fb;
+    width: 180px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 5px;
+}
+
+.buttons{
+    background-color:#dcc1fb;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 5px;
+}
+
+.buttonsmenu{
+    background-color:#dcc1fb;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 300px;
+}
+.more{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'twaysky';
+    padding: 15px 32px;
+}
+
+.onlineb{
+    margin-left: 260px;
+}
+.bodyb{
+    margin-left: 65px;
+}
+.handb{
+    margin-left:15px;
+}
+/*section3*/
+
+.besthand{
+    text-align: center;
+}
+
+.bestbody{
+    text-align: center;
+}
+
+.bestcologne{
+    text-align: center;
+}
+
+/*section4*/
+.redrose{
+    text-align: center;
+}
+
+.itmecologne{
+    text-align: center;
+}
+
+.black{
+    text-align: center;
+}
+
+/*section5*/
+
+.lavender{
+    text-align: center;
+}
+
+.diffvser{
+    text-align: center;
+}
+
+.mist{
+    text-align: center;
+}
+
+/* 미디어 쿼리 */
+
+@media screen and (max-width: 767px) {
+    .button{
+        text-align: center;
+        border-radius: 4px 4px 4px 4px;
+        background-color: #dcc1fb;
+        width: 150px;
+        height: 30px;
+        color: white;
+        margin-left: 5px;
+        margin-top: 7px;
+    }
+    .more{
+        font-size: 0.8rem;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button{
+        text-align: center;
+        border-radius: 4px 4px 4px 4px;
+        background-color: #dcc1fb;
+        width: 150px;
+        height: 30px;
+        color: white;
+        margin-left: 5px;
+        margin-top: 7px;
+    }
+    .more{
+        font-size: 1.0rem;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}

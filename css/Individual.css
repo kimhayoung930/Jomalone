@@ -1,0 +1,983 @@
+@charset "UTF-8";
+* {
+    margin: 0; padding: 0;
+    font: "Lucida Fax" ,Arial;
+}
+a { text-decoration: none !important; }
+img { border: 0; }
+ul { list-style: none; }
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*154cologne*/
+    .one4{
+    float: left;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'twaysky';
+}
+
+.one6{
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+    font-family: 'twaysky';
+}
+.one1{
+    float: left;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 3px #cac8c8;
+    margin-left: -50px;
+    margin-top: 110px;
+    font-family: 'twaysky';
+}
+.one7{
+    float: left;
+    left: -50px;
+    color: #6c6262;
+    margin-top: 160px;
+    font-family: 'twaysky';
+}
+.one8{
+    display: none;
+}
+.one5{
+    color: #6c6262;
+    margin-top: 50px;
+    font-family: 'twaysky';
+}
+.onecologne{
+    float: right;
+    width: 200px;
+    height:200px;
+    margin-right: -100px;
+    margin-top: 35px;
+}
+.onephoto1{
+    width: 188px;
+    margin-left: 48px;
+}
+.onephoto2{
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.onephoto{
+    width: 256px;
+    margin-left: 70px;
+}
+/*blackberry cologne*/
+.number{
+    float: right;
+    margin-right:5px;
+    margin-top: 3px;
+    font-family: 'twaysky';
+}
+.blacktext{
+    float: left;
+    margin-left: 10px;
+    margin-top: 60px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.blacktext1{
+    float: left;
+    margin-top: 100px;
+    margin-left: -100px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.blacktext2{
+    float: left;
+    margin-top: 140px;
+    margin-left: -80px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.blackbarry{
+    width: 200px;
+    margin-left: 150px;
+}
+.barryphoto{
+    width: 205px;
+    margin-left: 40px;
+}
+.blackphoto1{
+    width: 188px;
+    margin-left: 46px;
+}
+.blackphoto2{
+    width: 250px;
+    margin-left: 80px;
+}
+/* Lavender Car Diffuser*/
+.number1{
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+    font-family: 'twaysky';
+}
+.lavendertext{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.lavendertext1{
+    float: left;
+    margin-top: 80px;
+    margin-left: -80px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.lavendertext2{
+    float: left;
+    margin-top: 120px;
+    margin-left: -150px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.lavendercar{
+    width: 300px;
+    float: right;
+    margin-top: 30px;
+    
+}
+.cartext{
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.carphoto{
+    width: 180px;
+    margin-left: 45px;
+}
+.carphoto1{
+    width: 188px;
+    margin-left: 45px;
+}
+.carphoto2{
+    width: 350px;
+    height: 250px;
+    margin-left: 26px;
+    
+}
+/*hand Cream*/
+.number2{
+    margin-top: 4px;
+    float: right;
+    margin-right: 5px;
+    font-family: 'twaysky';
+}
+.peony{
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.cream{
+    float: left;
+    margin-top: 80px;
+    margin-left: -200px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.suede{
+    margin-top: 130px;
+    margin-left: -200px;
+    float: left;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.hand{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.handphoto1{
+    width: 200px;
+    margin-left: 40px;
+}
+.handphoto2{
+    width: 160px;
+    margin-left: 120px;
+}
+.handphoto3{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.handtext{
+    font-family: 'twaysky';
+    color: #6c6262;
+}
+/*Jasmine Samban & Marlgold Cologne*/
+.number3{
+    float: right;
+    margin-right: 5px;
+    margin-top: 3PX;
+    font-family: 'twaysky';
+}
+.samban{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.golds{
+    float: left;
+    margin-top: 80px;
+    margin-left: -290px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.marl{
+    float: left;
+    margin-top: 130px;
+    color:  #6c6262;
+    margin-left: -200px;
+    font-family: 'twaysky';
+}
+.blackimg{
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top: 10px;
+}
+.marlgoldtext{
+    margin-top: 45px;
+    font-family: 'twaysky';
+    color:  #6c6262;
+}
+.cologen{
+    margin-left: 180px;
+}
+.jasmineimg{
+    width: 250px;
+    margin-left: 10px;
+    margin-top:45px;
+}
+.blackcologne{
+    width: 230px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.marigold{
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/*laverderland*/
+.number4{
+    margin-top: 5px;
+    float: right;
+    margin-right:5px;
+    font-family: 'twaysky';
+}
+.lavender{
+    width: 200px;
+    height: 200px;
+    margin-top: -150px;
+    margin-left: 450px;
+}
+.landtext{
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.landtext1{
+    float: left;
+    margin-top: 90px;
+    margin-left: -50px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.landtext2{
+    float: left;
+    margin-top: 130px;
+    margin-left: -102px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.landtext3{
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.landphoto3{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.landphoto1{
+    width: 250px;
+    margin-left:15px;
+
+}
+.landphoto2{
+    width: 205px;
+    margin-left: 100px;
+}
+/*mist*/
+.number5{
+    margin-top: 5px;
+    float: right;
+    margin-right:5px;
+    font-family: 'twaysky';
+}
+.misttext{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.misttext1{
+    float: left;
+    margin-top: 80px;
+    margin-left: -80px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.misttext2{
+    float: left;
+    margin-top: 130px;
+    margin-left: -100px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.misttext3{
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.mist{
+    width: 250px;
+    float: right;
+    margin-top: -100px; 
+    margin-left: 50px;   
+}
+
+.mistphoto{
+    width: 250px;
+    margin-top:45px;
+}
+.mistphoto1{
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+}
+.mistphoto2{
+    width: 250px;
+    margin-left: 70px;
+}
+/*Peony & Blush Suese Body Cream*/
+.number6{
+    float: right;
+    margin-right:5px;
+    margin-top: 5px;
+    font-family: 'twaysky';
+}
+.bodytext{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.bodytext1{
+    margin-top: 80px;
+    margin-left: 200px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.bodytext2{
+    margin-top: 30px;
+    margin-left: 180px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.bodytext3{
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.blush {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: -150px;
+}
+.bodyphoto2{
+    width: 230px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.bodyphoto1{
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.bodyphoto{
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+/*red cologne*/
+.number7{
+    float: right;
+    margin-top: 5px;
+    margin-right:5px;
+    font-family: 'twaysky';
+}
+.roses{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.redc{
+    float: left;
+    margin-top: 80px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-family: 'twaysky';
+}
+.red{
+    float: left;
+    margin-top: 130px;
+    margin-left: -80px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.redro{
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.redrose{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: -110px;
+    margin-left: 90px;
+}
+.redphoto3{
+    width: 250px;
+    margin-top: 30px;
+}
+.redphoto2{
+    width: 250px;
+    margin-left: 75px;    
+}
+.redphoto1{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+/*154cologne*/
+.one4{
+    float: left;
+    text-shadow: 3px 3px 3px #cac8c8;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.one6{
+    float: right;
+    margin-right: 10px;
+}
+.one1{
+    float: left;
+    margin-left: -5px;
+    text-shadow: 3px 3px 3px #cac8c8;
+    font-size: 1rem;
+    margin-top: 80px;
+}
+.one7{
+    float: left;
+    font-size: 0.5rem;
+    left: -50px;
+    color: #6c6262;
+    margin-top: 100px;
+}
+.one5{
+    display: none;
+}
+.one8{
+    display: block;
+    margin-top: 35px;;
+    font-size: 0.1rem;
+    font-family: 'twaysky';
+    color: #6c6262;
+}
+.onecologne{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.onephoto{
+    height: 130px;
+    margin-left: 30px;
+}
+.onephoto1{
+    width: 112px;
+    margin-top: 0.5px;
+    margin-left: 23px;
+}
+.onephoto2{
+    width: 130px;
+    margin-top: 30px;
+}
+.onephoto{
+    width: 148px;
+    height: 150px;
+    margin-left:16px;
+}
+/*blackberry cologne*/
+.number{
+    float: right;
+}
+.blacktext{
+    float: left;
+    font-size: 1rem;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.blacktext1{
+    float: left;
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-left: -80px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.blacktext2{
+    float: left;
+    font-size: 0.5rem;
+    margin-top: 80px;
+    margin-left: -100px;
+    color: #6c6262;
+}
+.blackbarry{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.barryphoto{
+    width: 123px;
+    margin-left: 15px;
+
+}
+.blackphoto1{
+    width: 113px;
+    margin-left: 20px;
+}
+.blackphoto2{
+    width: 150px;
+    margin-left: 15px;
+}
+
+
+/* Lavender Car Diffuser*/
+.number1{
+    float: right;
+}
+.lavendertext{
+    font-size: 1rem;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.lavendertext1{
+    font-size: 1rem;
+    float: left;
+    margin-top: 60px;
+    margin-left: -100px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.lavendertext2{
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 90px;
+    margin-left: -100px;
+    color: #6c6262;
+}
+.lavendercar{
+    float: right;
+    width: 150px;
+    margin-top: -50px;
+    margin-left: 5000px;
+}
+.cartext{
+    font-size: 0.5rem;
+}
+.carphoto{
+    width: 100px;
+    margin-left: 28px;
+}
+.carphoto1{
+    width: 113px;
+    margin-left: 21px;
+}
+.carphoto2{
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+}
+/*Jasmine Samban & Marlgold Cologne*/
+    .samban{
+        font-size: 1rem;
+    }
+    .samban{
+        margin-left: 5px;
+    }
+    .golds{
+        font-size: 1.0rem;
+        margin-top: 45px;
+        margin-left: -140px;
+    }
+    .marl{
+        font-size: 0.5rem;
+        float: left;
+        margin-top: 80px;
+        margin-left: -130px;
+        color: #6c6262;
+    }
+    .blackimg{
+        width: 120px;
+        height: 120px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .marlgoldtext{
+        display: none;
+    }
+    .jasmineimg{
+        width: 150px;
+        margin-left:3px;
+        margin-top:25px;
+    }
+    .blackcologne{
+        width: 130px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .marigold{
+        width: 130px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+/*laverderland*/
+.number4{
+    margin-top: 5px;
+    float: right;
+    margin-right:5px;
+}
+.lavender{
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 230px;
+}
+.landtext{
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.landtext1{
+    font-size: 1rem;
+    float: left;
+    margin-top: 80px;
+    margin-left: -60px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.landtext2{
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 110px;
+    margin-left: -60px;
+    color: #6c6262;
+}
+.landtext3{
+    display: none;
+}
+.landphoto3{
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.landphoto1{
+    width: 140px;
+    height: 150px;
+    margin-left:8px;
+}
+.landphoto2{
+    width: 123px;
+    margin-left: 30px;
+    
+}
+
+/*mist*/
+.number5{
+    font-size: 0.5rem;
+    float: right;
+    margin-right:5px;
+}
+.misttext{
+    font-size: 1rem;
+    float: left;
+    margin-top: 40px;
+    margin-left: 25px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.misttext1{
+    font-size: 1rem;
+    float: left;
+    margin-top: 70px;
+    margin-left: -70px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.misttext2{
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 100px;
+    margin-left: -100px;
+    color: #6c6262;
+}
+.mist{
+    width: 130px;
+    margin-top: -40px; 
+    margin-left: 60px;   
+}
+.misttext3{
+    display: none;
+}
+
+.mistphoto{
+    width: 130px;
+    margin-top: 30px;
+}
+.mistphoto1{
+    width: 130px;
+    height: 150px;
+    margin-left: 12px;
+}
+.mistphoto2{
+    width: 150px;
+    margin-left: 15px;
+}
+/*Peony & Blush Suede Body Cream*/
+.number6{
+    font-size: 0.5rem;
+    float: right;
+    margin-right:5px;
+}
+.bodytext{
+    float: left;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.bodytext1{
+    font-size: 1rem;
+    margin-top: 60px;
+    margin-left: 100px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.bodytext2{
+    font-size: 0.5rem;
+    margin-top: 10px;
+    margin-left: 100px;
+    color: #6c6262;
+}
+.blush {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top:-80px;
+}
+.bodytext3{
+    display: none;
+}
+.bodyphoto2{
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+.bodyphoto1{
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.bodyphoto{
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+/*red cologne*/
+.number7{
+    font-size: 0.5rem;
+    margin-top: 5px;
+    float: right;
+}
+.roses{
+    font-size: 1rem;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.redc{
+    font-size: 1rem;
+    float: left;
+    margin-top: 65px;
+    margin-left:-50px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.red{
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 100px;
+    margin-left: -60px;
+    color: #6c6262;
+}
+.redrose{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: -80px;
+    margin-left: 75px;
+}
+.redro{
+    display: none;
+}
+.redphoto3{
+    width: 130px;
+    margin-top: 30px;
+}
+.redphoto2{
+    width: 145px;
+    height: 150px;
+    margin-left: 19px;
+}
+.redphoto1{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+/*hand Cream*/
+.number2{
+    font-size: 0.5rem;
+    float: right;
+}
+.peony{
+    font-size: 1rem;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.cream{
+    font-size: 1rem;
+    float: left;
+    margin-top: 60px;
+    margin-left: -150px;
+    text-shadow: 3px 3px 3px #cac8c8;
+}
+.suede{
+    font-size: 0.5rem;
+    margin-top: 90px;
+    margin-left: -120px;
+    float: left;
+    color: #6c6262;
+}
+.hand{
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.handtext{
+    display: none;
+    font-size: 0.5rem;
+    margin-top: 30px;
+}
+
+.handphoto1{
+    width: 120px;
+    margin-left: 18px;
+
+}
+.handphoto2{
+    width: 90px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.handphoto3{
+    width: 130px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+/*기타*/
+.photo14{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.photo15{
+    width: 150px;
+}
+.photo16{
+    height: 130px;
+    margin-left: 15px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+
+/*Car Diffuser*/
+
+.lathese{
+    margin-top: 130px;
+    margin-left: -40px;
+}
+.lavendercar{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+    
+
+/*laverderland*/
+.landphoto2{
+    margin-left: 105px;
+    margin-top: 3px;
+}
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
