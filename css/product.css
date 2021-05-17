@@ -8,8 +8,10 @@ a { text-decoration: none !important; }
 img { border: 0; }
 ul { list-style: none; }
 #main_content {
-    background: #dcc1fb;
+    /* background: #dcc1fb; */
     height: 1000px;
+    background-image: url("../img/backimg.png");
+    width: 100%;
 }
 
 /*스크롤바*/
