@@ -443,7 +443,6 @@ ul { list-style: none; }
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
     #mobile_menu a {
         color: white;
         font-size: 30px;
