@@ -15,13 +15,16 @@ ul { list-style: none; }
 /*154cologne*/
     .one4{
     float: left;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-size: 3rem;
     margin-top: 50px;
     margin-left: 20px;
     font-family: 'twaysky';
 }
-
+.one4:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .one6{
     float: right;
     margin-right: 10px;
@@ -31,10 +34,14 @@ ul { list-style: none; }
 .one1{
     float: left;
     font-size: 2.5rem;
-    text-shadow: 3px 3px 3px #cac8c8;
     margin-left: -50px;
     margin-top: 110px;
     font-family: 'twaysky';
+}
+.one1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .one7{
     float: left;
@@ -57,6 +64,11 @@ ul { list-style: none; }
     height:200px;
     margin-right: -100px;
     margin-top: 35px;
+}
+.onecologne:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .onephoto1{
     width: 188px;
@@ -82,15 +94,23 @@ ul { list-style: none; }
     float: left;
     margin-left: 10px;
     margin-top: 60px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.blacktext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .blacktext1{
     float: left;
     margin-top: 100px;
     margin-left: -100px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.blacktext1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .blacktext2{
     float: left;
@@ -102,6 +122,11 @@ ul { list-style: none; }
 .blackbarry{
     width: 200px;
     margin-left: 150px;
+}
+.blackbarry:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .barryphoto{
     width: 205px;
@@ -126,15 +151,23 @@ ul { list-style: none; }
     float: left;
     margin-top: 30px;
     margin-left: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.lavendertext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .lavendertext1{
     float: left;
     margin-top: 80px;
     margin-left: -80px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.lavendertext1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .lavendertext2{
     float: left;
@@ -148,6 +181,11 @@ ul { list-style: none; }
     float: right;
     margin-top: 30px;
     
+}
+.lavendercar:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .cartext{
     color: #6c6262;
@@ -178,15 +216,23 @@ ul { list-style: none; }
     float: left;
     margin-left: 10px;
     margin-top: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.peony:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .cream{
     float: left;
     margin-top: 80px;
     margin-left: -200px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.cream:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .suede{
     margin-top: 130px;
@@ -200,6 +246,11 @@ ul { list-style: none; }
     height: 200px;
     margin-top: 10px;
     margin-left: 100px;
+}
+.hand:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .handphoto1{
     width: 200px;
@@ -339,15 +390,23 @@ ul { list-style: none; }
     float: left;
     margin-top: 30px;
     margin-left: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.misttext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .misttext1{
     float: left;
     margin-top: 80px;
     margin-left: -80px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.misttext1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .misttext2{
     float: left;
@@ -366,7 +425,11 @@ ul { list-style: none; }
     margin-top: -100px; 
     margin-left: 50px;   
 }
-
+.mist:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .mistphoto{
     width: 250px;
     margin-top:45px;
@@ -391,13 +454,16 @@ ul { list-style: none; }
     float: left;
     margin-left: 30px;
     margin-top: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.bodytext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .bodytext1{
     margin-top: 80px;
     margin-left: 200px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
 }
 .bodytext2{
@@ -405,6 +471,11 @@ ul { list-style: none; }
     margin-left: 180px;
     color: #6c6262;
     font-family: 'twaysky';
+}
+.bodytext1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .bodytext3{
     color: #6c6262;
@@ -415,6 +486,11 @@ ul { list-style: none; }
     height: 200px;
     float: right;
     margin-top: -150px;
+}
+.blush:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .bodyphoto2{
     width: 230px;
@@ -490,7 +566,6 @@ ul { list-style: none; }
 /*154cologne*/
 .one4{
     float: left;
-    text-shadow: 3px 3px 3px #cac8c8;
     margin-top: 50px;
     font-size: 1.5rem;
     margin-left: 20px;
@@ -502,7 +577,6 @@ ul { list-style: none; }
 .one1{
     float: left;
     margin-left: -5px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-size: 1rem;
     margin-top: 80px;
 }
@@ -554,14 +628,12 @@ ul { list-style: none; }
     float: left;
     font-size: 1rem;
     margin-top: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .blacktext1{
     float: left;
     font-size: 1rem;
     margin-top: 50px;
     margin-left: -80px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .blacktext2{
     float: left;
@@ -600,14 +672,12 @@ ul { list-style: none; }
     float: left;
     margin-top: 30px;
     margin-left: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .lavendertext1{
     font-size: 1rem;
     float: left;
     margin-top: 60px;
     margin-left: -100px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .lavendertext2{
     font-size: 0.5rem;
@@ -698,14 +768,14 @@ ul { list-style: none; }
     margin-top: 50px;
     margin-left: 30px;
     float: left;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .landtext1{
     font-size: 1rem;
     float: left;
     margin-top: 80px;
     margin-left: -60px;
-    text-shadow: 3px 3px 3px #cac8c8;
+    
 }
 .landtext2{
     font-size: 0.5rem;
@@ -743,15 +813,14 @@ ul { list-style: none; }
     font-size: 1rem;
     float: left;
     margin-top: 40px;
-    margin-left: 25px;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .misttext1{
     font-size: 1rem;
     float: left;
     margin-top: 70px;
     margin-left: -70px;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .misttext2{
     font-size: 0.5rem;
@@ -793,13 +862,11 @@ ul { list-style: none; }
     font-size: 1rem;
     margin-left: 30px;
     margin-top: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .bodytext1{
     font-size: 1rem;
     margin-top: 60px;
     margin-left: 100px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .bodytext2{
     font-size: 0.5rem;
@@ -893,14 +960,12 @@ ul { list-style: none; }
     float: left;
     margin-left: 30px;
     margin-top: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .cream{
     font-size: 1rem;
     float: left;
     margin-top: 60px;
     margin-left: -150px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .suede{
     font-size: 0.5rem;
@@ -956,17 +1021,7 @@ ul { list-style: none; }
 
 
 
-/*Car Diffuser*/
 
-.lathese{
-    margin-top: 130px;
-    margin-left: -40px;
-}
-.lavendercar{
-    width: 300px;
-    margin-top: 30px;
-    margin-left: 50px;
-}
     
 
 /*laverderland*/
