@@ -11,22 +11,41 @@
     height: 250px;
     margin-left: 15px;
 }
+.lavender1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .lavender2{
     width: 250px;
     height: 250px;
     margin-left: 15px;
+}
+.lavender2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .lavender3{
     width: 250px;
     height: 250px;
     margin-left: 15px;
 }
+.lavender3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .landtext{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.landtext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .landtext1{
     text-align: center;
@@ -34,11 +53,21 @@
     color: #6c6262;
     font-family: 'twaysky';
 }
+.landtex1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .landtext2{
     text-align: center;
     color: #6c6262;
     margin-top: 30px;
     font-family: 'twaysky';
+}
+.landtext3:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /*car diffver*/
 .carimg1{
@@ -46,22 +75,41 @@
     margin-top: 1px;
     margin-left: 50px;
 }
+.carimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .carimg2{
     height: 245px;
     margin-top: 1px;
     margin-left: 50px;
+}
+.carimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .carimg3{
     height: 245px;
     margin-top: 1px;
     margin-left: 50px;
 }
+.carimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .cartext{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.cartext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .cartext1{
     text-align: center;
@@ -69,19 +117,28 @@
     margin-top: 30px;
     font-family: 'twaysky';
 }
+
 .cartext3{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.cartext3:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .cartext4{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.cartext4:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .cartext5{
     text-align: center;
@@ -99,22 +156,41 @@
     margin-top: 1px;
     margin-left: 50px;
 }
+.mistimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .mistimg2{
     height: 245px;
     margin-top: 1px;
     margin-left: 50px;
+}
+.mistimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .mistimg3{
     height: 245px;
     margin-top: 1px;
     margin-left: 50px;
 }
+.mistimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .misttext{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.misttext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .misttext1{
     text-align: center;
@@ -126,15 +202,23 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.misttext3:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .misttext4{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.misttext4:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .misttext5{
     text-align: center;
@@ -152,8 +236,12 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.scentstext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .scentstext1{
     text-align: center;
@@ -166,11 +254,21 @@
     text-align: center;
     font-family: 'twaysky';
 }
+.scentstext2:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .scentsimg1{
     width: 200px;
     height: 200px;
     margin-left: 100px;
     margin-top: 20px;
+}
+.scentsimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .scentsimg2{
     width: 200px;
@@ -178,11 +276,21 @@
     margin-left: 40px;
     margin-top: 20px;
 }
+.scentsimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .scentsimg3{
     width: 200px;
     height: 200px;
     margin-left: 40px;
     margin-top: 20px;
+}
+.scentsimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .scentsimg4{
     width: 200px;
@@ -190,11 +298,21 @@
     margin-left: 110px;
     margin-top: 20px;
 }
+.scentsimg4:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .scentsimg5{
     width: 200px;
     height: 200px;
     margin-left: 110px;
     margin-top: 20px;
+}
+.scentsimg5:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .scentsimg6{
     width: 200px;
@@ -202,33 +320,68 @@
     margin-left: 40px;
     margin-top: 20px;
 }
+.scentsimg6:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 /*body*/
 .bodyimg1{
     width: 240px;
     margin-top: 10px;
+}
+.bodyimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .bodyimg2{
     width: 200px;
     margin-top: 10px;
     margin-left: 45px;
 }
+.bodyimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .bodyimg3{
     width: 190px;
     margin-top: 10px;
     margin-left: 45px;
+}
+.bodyimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 /*hand*/
 .handimg1{
     width: 180px;
     margin-left: 45px;
 }
+.handimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .handimg2{
     width: 180px;
     margin-left: 45px;
 }
+.handimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .handimg3{
     width: 180px;
     margin-left: 45px;
+}
+.handimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 /*online*/
 .onlineimg1{
@@ -236,15 +389,30 @@
     margin-top: 20px;
     margin-left: 25px;
 }
+.onlineimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .onlineimg2{
     width: 200px;
     margin-top: 20px;
     margin-left: 40px;
 }
+.onlineimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .onlineimg3{
     width: 200px;
     margin-top: 20px;
     margin-left: 45px;
+}
+.onlineimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 /*미디어쿼리*/
 @media screen and (max-width: 767px) {
@@ -269,7 +437,7 @@
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
+   
 }
 .landtext1{
     display: none;
@@ -305,7 +473,7 @@
     text-align: center;
     font-size: 1.5rem;
     margin-top: 20px;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .cartext1{
     font-size: 0.8rem;
@@ -316,17 +484,16 @@
 }
 .cartext3{
     text-align: center;
-    font-size: 0.4rem;
+    font-size: 0.1rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .cartext4{
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.1rem;
     margin-top: -10px;
     margin-bottom: 20px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .cartext5{
 display: none;
@@ -358,7 +525,6 @@ display: none;
     text-align: center;
     font-size: 1.5rem;
     margin-top: 20px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .misttext1{
     font-size: 0.8rem;
@@ -372,14 +538,13 @@ display: none;
     font-size: 0.4rem;
     margin-top: 10pxpx;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .misttext4{
     text-align: center;
     font-size: 0.5rem;
     margin-top: -10px;
     margin-bottom: 20px;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .misttext5{
 display: none;
@@ -397,7 +562,6 @@ display: none;
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .scentstext1{
     font-size: 0.5rem;
