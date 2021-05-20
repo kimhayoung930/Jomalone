@@ -64,6 +64,9 @@
     margin-top: 30px;
     font-family: 'twaysky';
 }
+.landtext8{
+    display: none;
+}
 .landtext3:hover{
     background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
     -webkit-background-clip: text;
@@ -223,7 +226,7 @@
 .misttext5{
     text-align: center;
     color: #6c6262;
-    margin-top: 5px;
+    margin-top: -5px;
     font-family: 'twaysky';
 }
 .misttext6{
@@ -426,6 +429,7 @@
     width: 140px;
     height: 150px;
     margin-left: 8px;
+    margin-top: 15;
 }
 .lavender3{
     width: 140px;
@@ -443,10 +447,20 @@
     display: none;
 }
 .landtext2{
+    display: none;
     font-size: 0.1rem;
     text-align: center;
     color: #6c6262;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+.landtext8{
+    display: block;
+    font-size: 0.1rem;
+    text-align: center;
+    color: #6c6262;
+    margin-top: 10px;
+    font-family: 'twaysky';
+    
 }
 .landtext3{
     font-size: 0.8rem;
@@ -502,7 +516,7 @@ display: none;
     display: block;
     font-size: 0.5rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: -10px;
     color: #6c6262;
 }
 /*mist diffver*/
@@ -553,7 +567,7 @@ display: none;
     display: block;
     font-size: 0.5rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: -10px;
     color: #6c6262;
 }
 /*scents*/
@@ -654,6 +668,9 @@ display: none;
     width: 100px;
     margin-top: 20px;
     margin-left: 30px;
+}
+.onlinetext1{
+    margin-top: 10px;
 }
 }
 
