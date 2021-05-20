@@ -280,15 +280,23 @@ ul { list-style: none; }
     float: left;
     margin-top: 30px;
     margin-left: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.samban:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .golds{
     float: left;
     margin-top: 80px;
     margin-left: -290px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.golds:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .marl{
     float: left;
@@ -302,6 +310,11 @@ ul { list-style: none; }
     height:200px;
     margin-left:100px;
     margin-top: 10px;
+}
+.blackimg:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .marlgoldtext{
     margin-top: 45px;
@@ -344,15 +357,23 @@ ul { list-style: none; }
     margin-top: 40px;
     margin-left: 30px;
     float: left;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.landtext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .landtext1{
     float: left;
     margin-top: 90px;
     margin-left: -50px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.landtext1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .landtext2{
     float: left;
@@ -369,6 +390,11 @@ ul { list-style: none; }
     width: 200px;
     margin-top: 20px;
     margin-left: 45px;
+}
+.landphoto3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .landphoto1{
     width: 250px;
@@ -518,14 +544,22 @@ ul { list-style: none; }
     float: left;
     margin-top: 30px;
     margin-left: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.roses:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .redc{
     float: left;
     margin-top: 80px;
-    text-shadow: 3px 3px 3px #cac8c8;
     font-family: 'twaysky';
+}
+.redc:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .red{
     float: left;
@@ -544,6 +578,11 @@ ul { list-style: none; }
     float: right;
     margin-top: -110px;
     margin-left: 90px;
+}
+.redrose:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 .redphoto3{
     width: 250px;
@@ -910,14 +949,13 @@ ul { list-style: none; }
     float: left;
     margin-top: 30px;
     margin-left: 30px;
-    text-shadow: 3px 3px 3px #cac8c8;
 }
 .redc{
     font-size: 1rem;
     float: left;
     margin-top: 65px;
     margin-left:-50px;
-    text-shadow: 3px 3px 3px #cac8c8;
+
 }
 .red{
     font-size: 0.5rem;
