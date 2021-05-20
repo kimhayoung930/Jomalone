@@ -7,7 +7,9 @@
 a { text-decoration: none !important; }
 img { border: 0; }
 ul { list-style: none; }
-
+body {
+    overflow-x: hidden;
+}
 #main_content {
     background-image: url("../img/backimg.png");
     width: 100%;
