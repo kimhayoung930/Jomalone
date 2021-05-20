@@ -97,7 +97,7 @@ $(function(){
         var width = $(window).width();
 
         if(width > 767) {
-     
+    
             if ($("#mobile_menu").is(":visible")) {
                 $(".mobile.hamburger").show();
                 $(".mobile.close").hide();
@@ -126,6 +126,8 @@ $(function(){
         animatedClassName : 'animated' , 
     
     } ) ;
-
+    
 
 });
+
+

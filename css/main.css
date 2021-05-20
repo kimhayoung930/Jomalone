@@ -68,7 +68,7 @@ body::-webkit-scrollbar-track {
 .land{
     position: absolute;
     top: 45%;
-    left: 10%;
+    left:23%;
     transform:  translateX(-50%) rotate(-10deg);
     font-size: 6rem;
     color: white;

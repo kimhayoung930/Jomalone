@@ -191,7 +191,15 @@
     top: 61px;
     z-index: 1; 
 }
-
+#main_header > .lnb_container_menu{
+    display: none;
+    background: #bea0e0;
+    height: 500px;
+    width: 100%;
+    position: fixed;
+    top: 61px;
+    z-index: 1;
+}
 #main_header > .lnb_container > .lnb {
     overflow: hidden;
     margin: 0 auto;
