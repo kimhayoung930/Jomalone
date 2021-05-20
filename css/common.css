@@ -1,17 +1,5 @@
 @charset "UTF-8";
 
-/* 초기화 */
-* {
-    margin: 0; padding: 0;
-    font: "Lucida Fax" ,Arial;
-}
-body {
-    overflow-x: hidden;
-}
-a { text-decoration: none !important; }
-img { border: 0; }
-ul { list-style: none; }
-
 @font-face {
     font-family: 'twaysky';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');

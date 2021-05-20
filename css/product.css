@@ -7,6 +7,9 @@
 a { text-decoration: none !important; }
 img { border: 0; }
 ul { list-style: none; }
+body {
+    overflow-x: hidden;
+}
 #main_content {
     /* background: #dcc1fb; */
     height: 1000px;
