@@ -346,9 +346,9 @@
     transition-timing-function: ease-in-out;
 }
 .bodyimg3{
-    width: 190px;
-    margin-top: 10px;
-    margin-left: 45px;
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 .bodyimg3:hover{
     opacity: 0.5;  
@@ -618,13 +618,13 @@ display: none;
 }
 .bodyimg2{
     width: 100px;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 25px;
+    margin-left: 27px;
 }
 .bodyimg3{
-    width: 100px;
-    margin-top: 10px;
-    margin-left: 25px;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 /*hand*/
 .handimg1{
