@@ -536,6 +536,7 @@ body::-webkit-scrollbar-track {
     .land{
         font-size: 3rem;
         top: 30%;
+        left: 7%;
     }
     .photo1{
         float: right;
@@ -900,7 +901,7 @@ body::-webkit-scrollbar-track {
     }
     .land{
         font-size: 4rem;
-        top: 37%;
+        top: 42%;
     }
     .photo1{
         float: right;
